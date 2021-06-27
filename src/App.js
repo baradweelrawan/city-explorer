@@ -34,6 +34,9 @@ import axios from 'axios';
           <input type='text' placeholder='city name....' onChange={(e)=>{this.changeHandler(e)}} />
           <button>Explore</button>
         </form>
+        <h1>{this.state.displayName}</h1>
+        <h1>{this.state.longitude}</h1>
+        <h1>{this.state.latitude}</h1>
       </div>
     )
   }
