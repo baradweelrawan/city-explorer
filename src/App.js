@@ -24,7 +24,7 @@ import axios from 'axios';
       longitude:name.data[0].lon,
       latitude:name.data[0].lat
     })
-    console.log(name.data[0].lat)
+    console.log(name.data[0])
   }
   
   render() {
