@@ -47,14 +47,10 @@ class App extends Component {
     })
 
     console.log(name.data[0])
-    // console.log(map.data[0])
   }
 
   render() {
-    // if(this.state.displayName === null ){
-
-    //   console.log("error:" ,"Unable to geocode")
-    // }else {
+   
     return (
       <div>
 
